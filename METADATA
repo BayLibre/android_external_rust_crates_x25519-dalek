@@ -1,0 +1,28 @@
+name: "x25519-dalek"
+description: "X25519 elliptic curve Diffie-Hellman key exchange in pure-Rust, using curve25519-dalek."
+third_party {
+  version: "2.0.1"
+  license_type: NOTICE
+  last_upgrade_date {
+    year: 2026
+    month: 11
+    day: 4
+  }
+  homepage: "https://crates.io/crates/x25519-dalek"
+  identifier {
+    type: "crates.io"
+    value: "x25519-dalek"
+    version: "2.0.1"
+    primary_source: true
+  }
+  identifier {
+    type: "Archive"
+    value: "https://static.crates.io/crates/x25519-dalek/x25519-dalek-2.0.1.crate"
+    version: "2.0.1"
+  }
+  identifier {
+    type: "Git"
+    value: "https://github.com/dalek-cryptography/curve25519-dalek"
+    version: "4ac84dd0668b1d2e51654fcdffe4ae6a687bef00"
+  }
+}
